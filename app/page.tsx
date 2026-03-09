@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, ReactNode } from "react";
-import { Target, Handshake, Landmark, ArrowRight, CheckCircle2, ShieldCheck, Home, Store, Car, X } from "lucide-react";
+import { Target, Handshake, Landmark, ArrowRight, CheckCircle2, ShieldCheck, Home as HomeIcon, Store, Car, X } from "lucide-react";
 
 const FadeIn = ({ children, delay = 0, className = "" }: { children: ReactNode, className?: string, delay?: number }) => {
     const [isVisible, setIsVisible] = useState(false);
@@ -212,7 +212,7 @@ export default function Home() {
                             <FadeIn delay={200} className="relative pl-16 group p-8 rounded-3xl transition-all duration-300 hover:bg-slate-50 dark:hover:bg-slate-900 border border-transparent hover:border-slate-200 dark:hover:border-slate-800 hover:shadow-xl">
                                 <dt className="text-base font-semibold leading-7 text-slate-900 dark:text-white">
                                     <div className="absolute left-4 top-8 flex h-10 w-10 items-center justify-center rounded-lg bg-slate-900 dark:bg-slate-800 transition-transform group-hover:scale-110">
-                                        <Home className="h-6 w-6 text-coral-500" aria-hidden="true" />
+                                        <HomeIcon className="h-6 w-6 text-coral-500" aria-hidden="true" />
                                     </div>
                                     Arriendos Seguros
                                 </dt>
