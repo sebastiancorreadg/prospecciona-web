@@ -5,8 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-    title: 'Avelia | Tu Aliado Financiero',
-    description: 'Conectamos clientes con brokers corporativos, cooperativas y bancos para la obtención de créditos.',
+    title: 'Prospecciona | Tu Aliado Financiero',
+    description: 'Prospecciona conecta tu visión con las oportunidades. Ofrecemos herramientas de evaluación, intermediación ágil y análisis de riesgo para negocios y personas.',
 };
 
 export default function RootLayout({
@@ -22,3 +22,4 @@ export default function RootLayout({
         </html>
     );
 }
+
