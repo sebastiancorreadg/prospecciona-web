@@ -1,5 +1,5 @@
 {
-  "name": "avelia",
+  "name": "prospecciona",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -29,4 +29,5 @@
   }
 
 }
+
 
